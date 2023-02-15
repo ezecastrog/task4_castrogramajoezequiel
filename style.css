@@ -67,4 +67,17 @@
   .second_container_content_container {
     padding-left: 20px;
   }
-  
+  /* RULES */
+
+  .rules-h3, .rules-p{
+    text-align: center;
+  }
+  ul{
+    list-style: circle;
+  }
+  .rules-section{
+    padding: 10px 32% 1% 32%;
+  }
+  .rules-special-p{
+    text-indent: 1.5em;
+  }
