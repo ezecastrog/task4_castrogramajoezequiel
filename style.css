@@ -1,129 +1,137 @@
-.index-body, .about-body, .contact-body {
-    font-family: cursive;
-  }
-  header,
-  .second_container {
-    padding: 10px 15% 1% 15%;
-  }
-  h1 {
-    font-size: xx-large;
-  }
-  nav {
-    display: flex;
-    z-index: 1;
-    margin-bottom: 5px;
-    margin-left: 2%;
-    margin-right: 2%;
-    align-items: center;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    
-  }
-  
-  nav > a { 
-    background-color: #0066cc;
-    color: white;
-    text-decoration: none;
-    width: 10%;
-    text-align: center;
-    padding:4px
-  }
-   nav>a:hover {
-    background-color: red;
-  } 
-  aside > img {
-    width: 100px;
-    height: 100px;
-  }
-  .event_date {
-    padding-left: 20px;
-  }
-  .event_detail {
-    padding-left: 40px;
-  }
-  .image-variable-container {
-    max-width: 100%;
-    max-height: 380px;
-  }
-  .image-variable-container > img {
-    width: 2000px;
-    max-width: 100%;
-    max-height: 300px;
-  }
-  .information > h2 {
-    border: 1px solid black;
-    text-align: center;
-    margin: 0px;
-  }
-  .second_container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    padding-top: 2px;
-  }
-  .second_container_content_container {
-    padding-left: 20px;
-  }
-  /* RULES */
-  .rules-body{
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  .rules-h3, .rules-p{
-    text-align: center;
-    margin: 0;
-  }
-  ul{
-    list-style: circle;
-  }
-  .rules-section{
-    padding: 10px 20% 1% 20%;
-  }
-  .rules-special-p{
-    text-indent: 1.5em;
-  }
-  .rules-ol{
-    padding: 0;
-    margin: 0;
-  }
-/* GAME_INFO */
-.game-body>table, .game-body>section>article,.game-body>footer ,.game-p-1,.game-p-2{
-  padding-left:30%
+.index-body,
+.about-body,
+.contact-body {
+  font-family: cursive;
+}
+header,
+.second_container {
+  padding: 10px 15% 1% 15%;
+}
+h1 {
+  font-size: xx-large;
+}
+nav {
+  display: flex;
+  z-index: 1;
+  margin-bottom: 5px;
+  margin-left: 2%;
+  margin-right: 2%;
+  align-items: center;
+  flex-wrap: nowrap;
+  justify-content: space-between;
 }
 
-.game-body>*,tr>td, tr>th,footer>p{
-  font-family:Arial, Helvetica, sans-serif;
+nav > a {
+  background-color: #0066cc;
+  color: white;
+  text-decoration: none;
+  width: 10%;
+  text-align: center;
+  padding: 4px;
 }
-.game-p-1{
+nav > a:hover {
+  background-color: red;
+}
+aside > img {
+  width: 100px;
+  height: 100px;
+}
+.event_date {
+  padding-left: 20px;
+}
+.event_detail {
+  padding-left: 40px;
+}
+.image-variable-container {
+  max-width: 100%;
+  max-height: 380px;
+}
+.image-variable-container > img {
+  width: 2000px;
+  max-width: 100%;
+  max-height: 300px;
+}
+.information > h2 {
+  border: 1px solid black;
+  text-align: center;
+  margin: 0px;
+}
+.second_container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding-top: 2px;
+}
+.second_container_content_container {
+  padding-left: 20px;
+}
+/* RULES */
+.rules-body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.rules-h3,
+.rules-p {
+  text-align: center;
+  margin: 0;
+}
+ul {
+  list-style: circle;
+}
+.rules-section {
+  padding: 10px 20% 1% 20%;
+}
+.rules-special-p {
+  text-indent: 1.5em;
+}
+.rules-ol {
+  padding: 0;
+  margin: 0;
+}
+/* GAME_INFO */
+.game-body > table,
+.game-body > section > article,
+.game-body > footer,
+.game-p-1,
+.game-p-2 {
+  padding-left: 30%;
+}
+
+.game-body > *,
+tr > td,
+tr > th,
+footer > p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.game-p-1 {
   font-style: italic;
 }
-.game-p-2{
+.game-p-2 {
   text-decoration: underline;
   font-style: italic;
 }
-.game-date{
+.game-date {
   text-align: center;
 }
-thead>tr>th{
+thead > tr > th {
   text-align: left;
 }
-.game-first-col{
+.game-first-col {
   width: 9rem;
 }
-.game-second-and-third-col{
+.game-second-and-third-col {
   width: 10rem;
 }
-.game-contact-info{
+.game-contact-info {
   display: flex;
   font-family: Arial, Helvetica, sans-serif;
 }
-.game-contact-info>p{
+.game-contact-info > p {
   padding: 0 130px 0 0;
   margin: 0;
 }
-tbody>tr>td{
+tbody > tr > td {
   padding-top: 7px;
 }
-.game-body>section{
+.game-body > section {
   padding: 40px 0 10px 0;
 }
-
