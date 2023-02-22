@@ -22,6 +22,7 @@
           <a href="./contact.html">Contact</a>
           <a href="./game_info.html">Game info</a>
           <a href="./rules.html">Rules</a>
+          <a href="./registration.html">Registration</a>
         </nav>
       </div>
       <div class="information">
@@ -30,50 +31,50 @@
     </header>
     <main>
       <section>
-        <form action="">
-          <fieldset>
+        <form action="./show_data.html" method="get" class="registration-form">
+          <fieldset class="registration-fset-1">
             <label for="first_name">Player's first name:</label>
-            <input type="text" placeholder="" id="first_name" />
+            <input type="text" placeholder="" id="first_name" name="first_name" />
             <label for="last_name">Last name:</label>
-            <input type="text" placeholder="" id="last_name" />
+            <input type="text" placeholder="" id="last_name" name="last_name"/>
           </fieldset>
-          <fieldset>
+          <fieldset class="registration-fset-2">
             <label for="street_address">Street Adress:</label>
-            <input type="text" placeholder="" id="street_address" />
+            <input type="text" placeholder="" id="street_address" name="street_address" />
           </fieldset>
-          <fieldset>
+          <fieldset class="registration-fset-3">
             <label for="city">City:</label>
-            <input type="text" placeholder="" id="city" />
+            <input type="text" placeholder="" id="city" name="city"/>
             <label for="zip_code">Zip Code:</label>
-            <input type="text" placeholder="" id="zip_code" />
+            <input type="text" placeholder="" id="zip_code" name="zip_code"/>
           </fieldset>
-          <fieldset>
+          <fieldset class="registration-fset-4">
             <label for="birth_date">Birth Date(mm/dd/yyyy):</label>
-            <input type="date" id="birth_date" />
+            <input type="date" id="birth_date" name="birth_date"/>
             <label for="gender">Gender:</label>
-            <input type="radio" id="genderChoice1" name="gender" value="female"/>
             <label for="gender">Female</label>
-            <input type="radio" id="genderChoice2" name="gender" value="male" />
+            <input type="radio" id="genderChoice1" name="gender" value="female"/>
             <label for="gender">Male</label>
+            <input type="radio" id="genderChoice2" name="gender" value="male" />
           </fieldset>
 
-          <fieldset>
+          <fieldset class="registration-fset-5">
             <label for="grade">Grade:</label>
             <input type="radio" name="grade" id="gradeChoice1" value="Pre-School"/>
             <label for="grade">Pre-School</label>
             <input type="radio" name="grade" id="gradeChoice2" value="1st"/>
-            <label for="grade">1st</label>
+            <label for="grade"><sup>1st</sup></label>
             <input type="radio" name="grade" id="gradeChoice3" value="2nd"/>
-            <label for="grade">2nd</label>
+            <label for="grade"><sup>2nd</sup></label>
             <input type="radio" name="grade" id="gradeChoice4" value="3rd"/>
-            <label for="grade">3rd</label>
+            <label for="grade"><sup>3rd</sup></label>
             <input type="radio" name="grade" id="gradeChoice5" value="4th"/>
-            <label for="grade">4th</label>
+            <label for="grade"><sup>4th</sup></label>
             <input type="radio" name="grade" id="gradeChoice6" value="5th"/>
-            <label for="grade">5th</label>
+            <label for="grade"><sup>5th</sup></label>
           </fieldset>
 
-          <fieldset>
+          <fieldset class="registration-fset-6">
                 <h3>Which elementary school do you live near?</h3>
                 <h4>Closest School:</h4>
                 <fieldset>
@@ -96,7 +97,7 @@
                 </fieldset>
             </fieldset>
           
-            <fieldset>
+            <fieldset class="registration-fset-7">
                 <h3>What position(s) do you normally play? (check all that apply)</h3>
                 <fieldset>
                     <input type="checkbox" name="position" id="positionChoice1" value="Forward">
@@ -112,7 +113,7 @@
                 </fieldset>
             </fieldset>
 
-             <fieldset>
+             <fieldset class="registration-fset-8">
                 <h3>Uniform Size:</h3>
                 <fieldset>
                     <input type="radio" name="uniform_size" id="sizeChoise2" value="Youth Small">
@@ -140,19 +141,19 @@
                     <label for="uniform_size">Small</label>
                 </fieldset>
              </fieldset>
-             <fieldset>
+             <fieldset class="registration-fset-9">
                 <h3>Permission to Play</h3>
                 <p>
-                    I, the parent or guardian of the minor registrant, agree that the registant and I will abide by all the <br>
+                    I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the <br>
                     rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury <br>
-                    associated with hockey and in consideration for the "League" accepting the registrnt for its <br>
-                    hockey programas and activities, I hereby release, discharge, and/or otherwise indemnify MDHL, <br>
+                    associated with hockey and in consideration for the "League" accepting the registrant for its <br>
+                    hockey programs and activities, I hereby release, discharge, and/or otherwise indemnify MDHL, <br>
                     their employees and associated personnel and volunteers, including the facilities used for <br>
                     practices and games, against any claim by or on behalf of the registrant as a result of the <br>
                     registrant's participation in the program and/or being transported to or from MDHL sponsored <br>
                     activities, which transportation <br>
                     By signing below, I hereby agree and authorize the above. In addition, by signing below, I also <br>
-                    acknowledge that y have read the cancellation policy and agree to its terms.
+                    acknowledge that I have read the cancellation policy and agree to its terms.
                 </p>
                 <fieldset>
                     <label for="signature">Parent/Guardian Signature:</label>
@@ -164,6 +165,7 @@
                     <input type="date" name="signature_date" id="signature_date">
                 </fieldset>
              </fieldset>
+             <input type="submit" class="registration-button" value="Enviar">
         </form>
       </section>
     </main>
